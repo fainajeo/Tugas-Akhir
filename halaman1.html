@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman 1</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            width: 500%;
+            height: 500px;
+            background-color: aquamarine;
+        }
+
+        header {
+            background-color: #333;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            font-weight: bold;
+            color: white;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"] {
+            width: 200px;
+            padding: 5px;
+        }
+
+        button {
+            padding: 5px 10px;
+            background-color: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Halaman Utama</a></li>
+                <li><a href="halaman1.html">Halaman 1</a></li>
+                <li><a href="halaman2.html">Halaman 2</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Ini adalah Halaman 1</h1>
+        <img src="gambar/gambarbuku.jpg" alt="gambar" width="200px">
+        <form id="formPeminjaman">
+            <label for="JudulBuku">Judul Buku:</label>
+            <input type="text" id="JudulBuku" name="Judul" required>
+    
+            <label for="Nama Penulis">Nama Penulis:</label>
+            <input type="text" id="Nama Penulis" name="Nama Penulis" required>
+    
+            <label for="Penerbit Buku">Penerbit Buku:</label>
+            <input type="Penerbit Buku" id="Penerbit Buku" name="Penerbit Buku" required>
+
+            <label for="Ukuran Buku">Ukuran Buku:</label>
+            <input type="Ukuran Buku" id="Ukuran Buku" name="Ukuran Buku" required>
+            
+            <label for="Jumlah Halaman atau Tebal Buku">Jumlah Halaman atau Tebal Buku:</label>
+            <input type="Jumlah Halaman atau Tebal Buku" id="Jumlah Halaman atau Tebal Buku" name="Jumlah Halaman atau Tebal Buku" required>
+            
+            <label for="Tahun Terbit Buku">Tahun Terbit Buku:</label>
+            <input type="Tahun Terbit Buku" id="Tahun Terbit Buku" name="Tahun Terbit Buku" required>
+            <button type="submit">Kirim</button>
+        </form>
+    
+        <a href="halaman1.html">Lihat Data Peminjaman</a>
+    
+        <script src="script.js"></script>
+    </main>
+</body>
+</html>
